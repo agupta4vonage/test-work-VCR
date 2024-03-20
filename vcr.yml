@@ -1,10 +1,10 @@
 project:
-  name: vcr-hello-world
+  name: test-work-VCR
 instance:
   name: dev
   runtime: nodejs16
   region: aws.euw1
-  application-id: YOUR-VONAGE-API-APPLICATION-ID
+  application-id: d09fe580-5a98-49fc-a16e-b4ba7efdef69
   entrypoint: [node, server.js]
   environment:
     - name: YOURVAR1
